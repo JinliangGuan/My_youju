@@ -1,0 +1,43 @@
+/*===========tengxun-youju============*/
+.topbar{
+        width: 7.1rem;
+        height: 0.42rem;
+        padding:0.62rem 0.2rem 0.24rem;
+
+}
+.logo{
+        width: 1.92rem;
+        height: 0.42rem;
+        background:url(../images/youju_logo.jpg) no-repeat;
+        background-size: 100% 100%;
+        font-size: 0;
+        overflow: hidden;
+}
+.city{
+        height: 0.42rem;
+        margin-left: 0.26rem;
+}
+.city span{
+        display: block;
+        float: left;
+        height: 0.42rem;
+        line-height: 0.42rem;
+        font-size: 0.26rem;
+}
+.cityIcn{
+		display: block;
+		float:left;
+		margin:0.16rem 0 0 0.08rem;
+        width:0.16rem;
+        height: 0.08rem;
+        background:url(../images/icn01.jpg) no-repeat left top;
+        background-size: 2rem 2rem;
+}
+.top_service{
+		display: block;
+		margin:0.01rem 0.01rem 0 0;
+        width:0.45rem;
+        height: 0.42rem;
+        background:url(../images/icn01.jpg) no-repeat -0.36rem top;
+        background-size: 2rem 2rem;
+}

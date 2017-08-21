@@ -1,0 +1,68 @@
+/*=============================common CSS==============================*/
+/*=====================reset============================*/
+body,p,h1,h2,h3,h4,h5,h6,dl,dd{
+    margin:0;
+    padding:0;
+    color: #333;
+    font-family:"微软雅黑";
+    }
+body{
+    background-color:#fff;
+    }
+ul,ol{
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+h1,h2,h3,h4,h5,h6,strong,b{
+    font-weight:normal;
+    }
+em,i{
+    font-style:normal;
+    }
+a{
+   text-decoration:none;
+   color:#333;
+   }
+img{
+    border:none;
+    vertical-align:top;
+   }
+
+form,input,textarea,select,option,fieldset{
+    margin:0;
+    padding:0;
+    border:0;
+    background:none;
+    vertical-align:top;
+    outline: none;
+    font-family:"微软雅黑";
+}
+
+textarea{
+    overflow: auto;
+    resize: none;
+}
+/*===========================public======================*/
+.clearfix:after{
+                content:"";
+                display:block;
+                clear:both;
+                height:0;
+                overflow:hidden;
+}
+.clearfix{
+                zoom:1;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+body .clear-btm-border{
+    border-bottom: none;
+}
+body .clear-r-margin{
+    margin-right: 0;
+}
