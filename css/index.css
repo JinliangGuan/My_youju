@@ -1,43 +1,432 @@
 /*===========tengxun-youju============*/
-.topbar{
-        width: 7.1rem;
-        height: 0.42rem;
-        padding:0.62rem 0.2rem 0.24rem;
+
+#banner{
+        background:#fff;
+        width:7.50rem;
+        height: 3.76rem;
+        overflow: hidden;
+        position: relative;
+}
+#banner ul{
+        position: absolute;
+        left:-5rem;
+        width:15.0rem;
+        height: 3.76rem;
+}
+#banner li{
+        width:7.5rem;
+        height: 3.76rem;
+        float:left;
+}
+#banner img{
+        width:7.5rem;
+        height: 3.76rem;
 
 }
-.logo{
-        width: 1.92rem;
-        height: 0.42rem;
-        background:url(../images/youju_logo.jpg) no-repeat;
-        background-size: 100% 100%;
+
+#hotIcn{
+        height:1.65rem;
+        padding:0.11rem 0 0.14rem 0;
+        text-align: center;
         font-size: 0;
-        overflow: hidden;
+        background:#fff;
+        margin-bottom: 0.2rem;
+        
 }
-.city{
-        height: 0.42rem;
-        margin-left: 0.26rem;
+#hotIcn li{
+        display: inline-block; 
+        margin:0 0.31rem;              
 }
-.city span{
+#hotIcn a{
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.65rem;
+}
+#hotIcn span{
         display: block;
-        float: left;
+        margin:0.1rem auto 0.13rem;
+        width:1rem;
+        height: 1rem;        
+}
+#hotIcn em{
+        display: block;
+        font-size: 0.24rem;
         height: 0.42rem;
         line-height: 0.42rem;
-        font-size: 0.26rem;
+        color:#909090;
+        text-align: center;  
 }
-.cityIcn{
-		display: block;
-		float:left;
-		margin:0.16rem 0 0 0.08rem;
-        width:0.16rem;
-        height: 0.08rem;
-        background:url(../images/icn01.jpg) no-repeat left top;
-        background-size: 2rem 2rem;
+#hoticnItem1 span{
+        background:url(../images/icn02.jpg) no-repeat left top;
+        background-size:1rem 4.6rem;
 }
-.top_service{
-		display: block;
-		margin:0.01rem 0.01rem 0 0;
-        width:0.45rem;
+#hoticnItem2 span{
+        background:url(../images/icn02.jpg) no-repeat left -1.2rem;
+        background-size:1rem 4.6rem;
+}
+#hoticnItem3 span{
+        background:url(../images/icn02.jpg) no-repeat left -2.4rem;
+        background-size:1rem 4.6rem;
+}
+#hoticnItem4 span{
+        background:url(../images/icn02.jpg) no-repeat left -3.6rem;
+        background-size:1rem 4.6rem;
+}
+
+/* ==========免费报价----模板楼层，以下楼层有复用此层的样式======== */
+.floor{
+        background:#fff;
+        margin-bottom: 0.2rem;
+}
+.floor header{
+        height: 0.4rem;
+        margin-left:0.2rem;
+        padding:0.24rem 0.2rem 0.26rem 0;
+        border-bottom: 0.02rem solid #e5e5e5;
+}
+.floor h2{
+        float: left;
+        padding-left:0.2rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size:0.28rem;
+        font-weight:bolder;
+        background: url(../images/icn01.png) no-repeat -1.92rem 0.03rem;
+        background-size: 2rem 3rem;
+}
+.floor .floor_hoticn{
+        width: 0.68rem;
+        height: 0.32rem;
+        margin:0.06rem 0 0 0.2rem;
+        background: url(../images/icn01.png) no-repeat -1rem top;
+        background-size: 2rem 3rem;
+}
+.floorBody{
+        padding:0.2rem;
+        
+}
+.inp_wrap1{
+        padding: 0.2rem 0;
+}
+.inp_wrap{
+        width:3.11rem;
+        height:0.48rem;
+        padding: 0.23rem 0.18rem 0.21rem 0.12rem;
+        border:0.02rem solid #e5e5e5;
+        border-radius: 0.1rem;
+        position: relative;
+}
+input::-webkit-input-placeholder{color:#ccc;}
+.inp_wrap input{
+        float: left;
+        width: 2.8rem;
+        height:0.48rem;
+        line-height:0.48rem;
+        font-size:0.28rem;
+        text-align:left;
+        color:#666;
+}
+.inp_arrow_icn{
+        display: block;
+        width: 0.13rem;
+        height:0.24rem;
+        position: absolute;
+        right: 0.18rem;
+        top:0.34rem;
+        background: url(../images/icn01.png) no-repeat left -1.55rem;
+        background-size: 2rem 3rem;
+}
+.inp_m2_icn{
+        display: block;
+        width: 0.31rem;
+        height:0.24rem;
+        position: absolute;
+        right: 0.18rem;
+        top:0.34rem;
+        background: url(../images/icn01.png) no-repeat -1.68rem -1.16rem;
+        background-size: 2rem 3rem;
+}
+.inp_wrap2{
+        padding-bottom:0.2rem;
+}
+.price_tel_wrap{
+        width:4.12rem;
+}
+#price_submit{
+        float:right;
+        width:2.44rem;
+        height:0.96rem;
+        background:#1486f1;
+        color:#fff;
+        font-size:0.28rem;
+        border-radius: 0.1rem;
+}
+
+/* ======优质装修公司======= */
+.floor_ad_icn{
+        width: 0.96rem;
+        height: 0.4rem;
+        background: url(../images/icn01.png) no-repeat -0.33rem -1.54rem;
+        background-size: 2rem 3rem;
+}
+#good_Co_body{
+        width: 7.1rem;
+        height:3.87rem;
+        overflow-y: hidden;
+        overflow-x: auto;
+        
+}
+.good_Co_list{
+        width: 15rem;
+        height:3.87rem;
+        
+}
+.good_Co_item{
+        float: left;
+        width:2.29rem;
+        height:3.87rem;
+        margin-right: 0.12rem;
+        
+}
+.good_Co_item_pic{
+        width:2.25rem;
+        height: 2.25rem;
+        border: 0.02rem solid #e5e5e5; 
+        border-radius: 0.07rem; 
+        margin-bottom: 0.2rem;  
+}
+.good_Co_item_pic img{
+        width:2.25rem;
+        height: 2.25rem;
+}
+.good_Co_name{
         height: 0.42rem;
-        background:url(../images/icn01.jpg) no-repeat -0.36rem top;
-        background-size: 2rem 2rem;
+        width:100%;
+        line-height:0.42rem;
+        font-size:0.28rem;
+        color:#333;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;      
 }
+.good_Co_grade{
+        height: 0.4rem;
+        line-height: 0.4rem;
+        color:#999;
+        font-size:0.24rem;
+        margin-bottom:0.12rem;
+}
+.good_Co_txt{
+        max-width:100%;
+        white-space: nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        height: 0.40rem;
+        line-height: 0.40rem;
+        padding:0 0.05rem;
+        border:0.02rem solid #8AD143;
+        color:#8ad144;
+}
+
+/* ===============热门装修案例================ */
+.case_tag{
+        
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items:start;
+        /* height: 2rem; */
+        margin-bottom:0.22rem;
+}
+.case_tag a{
+        display:block;
+        height: 0.76rem;
+        line-height:0.76rem;
+        padding:0 0.18rem;
+        margin-bottom: 0.16rem;
+        white-space: nowrap;
+        color:#333;
+        text-align:center;
+        font-size:0.28rem;
+        background:#f5f5f5;
+        border-radius: 0.1rem;
+}
+.case_list_wrap{
+        width:7.05rem;
+        margin:0 auto;
+        overflow: hidden;
+}
+#case_list{
+        width:7.28rem;
+
+}
+.case_item{
+        width: 3.41rem;
+        height: 3.41rem;
+        margin-right: 0.22rem;
+        margin-bottom:0.22rem;
+        border-radius: 0.05rem;
+        position: relative;        
+}
+.case_item img{
+        width:3.41rem;
+        height: 3.41rem;
+}
+.case_item_bg{
+        height:0.77rem;
+        width: 3.17rem;
+        padding:0 0.12rem; 
+        color:#fff;
+        position: absolute;
+        left: 0;
+        bottom:0rem; 
+        background: rgba(0, 0, 0, 0.5);
+
+}
+
+.case_item_txt,.case_item_price{    
+        height:0.77rem;     
+        line-height:0.77rem;
+        font-size:0.2rem;
+        color:#fff;
+}
+.case_item_txt{
+        float: left; 
+        width:2.48rem;
+        vertical-align: top;
+ }
+ .case_item_txt sup{
+        vertical-align: top;
+
+ }
+ .case_item_price{
+        float: right;   
+ }
+
+ /* ==============装修攻略============== */
+ #strategy .floorBody{
+         padding:0.2rem 0 0 0;
+ }
+.strategy_item{
+        height:1.64rem;
+        padding:0.3rem 0.2rem;
+        border-bottom: 0.02rem solid #f4f4f4;
+ }
+.strategy_item_con{
+        width:4.8rem;
+        height: 1.64rem;
+ }
+.strategy_item h4{
+         height: 0.3rem;
+         line-height: 0.3rem;
+         font-size:0.3rem;
+         font-weight: bolder;
+ }
+ .strategy_item p{
+        height: 0.66rem;
+        overflow:hidden;
+        padding: 0.2rem 0;
+        line-height: 0.33rem;
+        font-size:0.24rem;
+        color:#333;
+ }
+ .strategy_item_msg{
+         height: 0.28rem;            
+ }
+ .view_icn{
+         width:0.24rem;
+         height: 0.18rem;
+         margin-top: 0.02rem;
+         margin-right: 0.06rem;
+         background: url(../images/icn01.png) no-repeat -0.86rem -1.16rem;
+         background-size: 2rem 3rem;
+ }
+ .time_icn{
+        width:0.24rem;
+        height: 0.23rem;
+        margin-top: 0.02rem;
+        margin-right: 0.08rem;
+        background: url(../images/icn01.png) no-repeat -1.31rem -1.16rem;
+        background-size: 2rem 3rem;
+}
+ .strategy_item_msg span{
+        float:left;
+        height: 0.22rem;
+        line-height: 0.22rem;
+        font-size:0.18rem;
+        margin-right: 0.28rem;
+        color:#999;
+ }
+ .strategy_item_pic img{
+        width: 1.64rem;
+        height: 1.64rem;
+ }
+  /* ==============装修公司============== */
+.floor_spread_icn{
+        width: 0.96rem;
+        height: 0.4rem;
+        background: url(../images/icn01.png) no-repeat -0.33rem -2.04rem;
+        background-size: 2rem 3rem;
+}
+#dec-Co .floorBody{
+        padding:0.24rem 0 0 0;
+}
+/* ====其他列表样式在common.css==== */
+
+/* ============底部报价栏============ */
+#free_quote header{
+        padding:0.34rem 0 0.23rem;
+}
+#free_quote h2{
+       padding:0.12rem 0;
+       font-size:0.28rem;
+       line-height: 0.28rem;
+       font-weight: bolder;
+       color:#565656;
+       text-align:center; 
+}
+#free_quote header p{
+        padding:0.11rem 0;
+        line-height: 0.22rem;
+        font-size:0.22rem;
+        color:#999;
+        text-align:center; 
+ }
+ #free_quote header p em{
+         color:#ff6325;
+         font-weight: bolder;
+ }
+ .free_quote_con{
+         padding:0 0.2rem;
+ }
+ .free_quote_con input{
+        box-sizing: border-box;
+        width:100%;
+        height: 0.98rem;
+        font-size: 0.28rem;
+        padding:0 0.12rem;
+        margin-bottom: 0.2rem;
+        border:0.02rem solid #e5e5e5;
+        border-radius: 0.1rem;
+ }
+ #free_quote_city{
+         text-align: left;
+ }
+ #free_quote_btn{
+         width:7.1rem;
+         height: 0.96rem;
+         margin-bottom: 0.2rem;
+         border-radius: 0.1rem;
+         font-size:0.3rem;
+         color:#fff;
+         background: #1486f1;
+ }
+
+ #copyright_foot{
+         padding:0.54rem 0 0.32rem;
+         height: 0.2rem;
+         line-height: 0.2rem;
+         text-align: center;
+         color:#ccc;
+ }

@@ -7,7 +7,8 @@ body,p,h1,h2,h3,h4,h5,h6,dl,dd{
     font-family:"微软雅黑";
     }
 body{
-    background-color:#fff;
+    background-color:#f8f8f8;
+    font-size: 0.24rem;
     }
 ul,ol{
     margin:0;
@@ -43,6 +44,9 @@ textarea{
     overflow: auto;
     resize: none;
 }
+
+
+
 /*===========================public======================*/
 .clearfix:after{
                 content:"";
@@ -63,6 +67,237 @@ textarea{
 body .clear-btm-border{
     border-bottom: none;
 }
+body .clear-right-border{
+    border-right: none;
+}
 body .clear-r-margin{
     margin-right: 0;
+}
+
+.floorBody{
+    background:#fff;
+}
+.floor_ft{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color:#999;
+    text-align:center; 
+    border-top: 0.02rem solid #e5e5e5;
+    background: #fff;
+}
+/* ======================topbar======================== */
+.topbar{
+    width: 7.1rem;
+    height: 0.42rem;
+    padding:0.62rem 0.2rem 0.24rem;
+    background:#fff;
+
+}
+.logo{
+    width: 1.92rem;
+    height: 0.42rem;
+    background:url(../images/youju_logo.jpg) no-repeat;
+    background-size: 100% 100%;
+    font-size: 0;
+    overflow: hidden;
+}
+.city{
+    height: 0.42rem;
+    margin-left: 0.16rem;
+    padding:0 0.1rem;
+    border-radius: 0.05rem;
+    background-color: #eee;
+    line-height: 0.42rem;
+    font-size: 0.26rem;
+}
+
+.city .iconfont{
+    color:#999;
+    font-size:0.18rem;
+    margin:0 0 0 0.07rem;
+}
+.top_service{
+    display: block;
+    margin:0.01rem 0.01rem 0 0;
+    width:0.45rem;
+    height: 0.42rem;
+    background: url(../images/icn01.png) no-repeat -0.36rem top;
+    background-size: 2rem 3rem;
+    border-radius: 0.05rem;
+    background-color: #eee;
+}
+
+.top_backIcn{
+    display: block;
+    float:left;
+    margin:0 0.26rem 0 0rem;
+    width:0.55rem;
+    height: 0.42rem;
+    border-radius: 0.05rem;
+    background:url(../images/top_backIcn.jpg) no-repeat 0.16rem top;
+    background-size: 0.23rem 0.42rem;
+}
+/* =====================topbar-part======================== */
+.topbar-tit{
+    height: 0.5rem;
+    padding:0.59rem 0 0.19rem;
+    position: relative;
+}
+.topbar_tit_h2{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.32rem;
+    font-weight:bolder;
+    text-align: center;
+}
+.top_h2_backIcn{
+    width:0.45rem;
+    height: 0.5rem;
+    background:url(../images/top_backIcn.jpg) no-repeat 0.11rem 0.07rem;
+    background-size: 0.23rem 0.42rem;
+    position: absolute;
+    left:0.25rem;
+    top:0.59rem;
+    border-radius: 0.08rem;
+
+}
+
+
+/* ======================装修公司列表======================== */
+
+
+.dec-Co-item{
+    width: 7.3rem;
+    height: 2.18rem;
+    padding:0.2rem 0 0 0.24rem;
+    border-bottom: 0.04rem solid #f8f8f8;
+    
+}
+.dec-Co-pic img{
+    width: 1.44rem;
+    height: 1.44rem;
+    border:0.01rem solid #e3e3e3;
+}
+.dec-Co-con{
+    width: 5.64rem;
+    height: 2.18rem;
+
+}
+.dec-Co-con-top{
+    height: 1.48rem;
+    margin-right:0.34rem;
+    border-bottom:0.02rem solid #e5e5e5;
+}
+.dec-Co-item-msg{
+    width: 3.2rem;
+}
+.dec-Co-name{
+    font-size: 0.28rem;
+    margin-bottom: 0.27rem;
+}
+.dec-Co-card{
+    height: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.dec-Co-card i{
+    margin:0 0.03rem;
+    display: block;
+    float: left;
+    width: 0.28rem;
+    height: 0.3rem;
+    background-image: url(../images/icn01.png);
+    background-repeat: no-repeat;
+    background-size: 2rem 3rem;
+}
+.dec-Co-card .card_che{
+    background-position:left -0.62rem; 
+}
+.dec-Co-card .card_yan{
+    background-position:-0.34rem -0.62rem; 
+}
+.dec-Co-card .card_liang{
+    background-position:-0.68rem -0.62rem; 
+}
+.dec-Co-card .card_she{
+    background-position:-1.02rem -0.62rem; 
+}
+.dec-Co-card .card_jian{
+    background-position:-1.36rem -0.62rem; 
+}
+.dec-Co-star{
+    height: 0.22rem;
+}
+.dec-Co-star i{
+    display: block;
+    float: left;
+    margin:0 0.03rem;
+    width: 0.22rem;
+    height: 0.22rem;
+    background-image: url(../images/icn01.png);
+    background-repeat: no-repeat;
+    background-size: 2rem 3rem;
+}
+.dec-Co-star .star_one{
+    background-position:left -1.12rem;
+}
+.dec-Co-star .star_half{
+    background-position:-0.43rem -1.12rem;
+}
+.dec-Co-grade{
+    width: 2.1rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    text-align: right;
+    padding:0.17rem 0 0.23rem;
+    
+}
+.grade-icn{
+    display: inline-block;
+    vertical-align: top;
+    margin-top:0.02rem;
+    width: 0.22rem;
+    height: 0.23rem;
+    background: url(../images/icn01.png) no-repeat -1.74rem -0.62rem;
+    background-size: 2rem 3rem;
+}
+.free_order_wrap{
+    width: 2.1rem;
+    height: 0.52rem;
+    text-align: right;
+}
+.freeorder_btn{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0.52rem;
+    width: 1.44rem;
+    height: 0.52rem;
+    font-size:0.22rem;
+    text-align: center;
+    color:#fff;
+    background:#f0612f;
+    border-radius: 0.05rem; 
+}
+.dec-Co-item-foot{
+    padding-top:0.15rem;
+}
+.dec-Co-item-foot i{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0.32rem;
+    height: 0.32rem;
+    padding:0 0.05rem;
+    font-size:0.22rem;
+    text-align: center;
+    color:#f0612f;
+    border:0.01rem solid #f0612f;
+}
+.dec-Co-item-foot span{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0.32rem;
+    height: 0.32rem;
+    font-size:0.22rem;
+    color:#999;
+    margin-left: 0.08rem;
+
 }

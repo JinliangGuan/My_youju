@@ -5,6 +5,7 @@
 		<title>腾讯·优居</title>
 		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts/iconfont.css">
 	</head>
 	<!--<script>
 		console.log(window.devicePixelRatio);
@@ -18,23 +19,405 @@
 		<header>
 			<div class="topbar clearfix">
 				<h1 class="logo fl">腾讯优居</h1>
-				<div class="city fl"><span>北京</span><i class="cityIcn"></i></div>
+				<div class="city fl"><span>北京</span><i class="iconfont icon-down"></i></div>
 				<div class="top_service fr"></div>
 			</div>
 		</header>
-		<div class="banner">
+		<div id="banner">
 			<ul>
-				<li><img src="" alt=""></li>
+				<li><img src="images/bannerpic/banner01.jpg" alt=""></li>
+				<li><img src="images/bannerpic/banner02.jpg" alt=""></li>
 			</ul>
 		</div>
-		<ul class="hotIcn clearfix">
-			<li class="fl"></li>
-			<li class="fl"></li>
-			<li class="fl"></li>
-			<li class="fl"></li>
+		<ul id="hotIcn">
+			<li id="hoticnItem1">
+				<a href="#">
+					<span></span>
+					<em>装修公司</em>
+				</a>
+			</li>
+			<li id="hoticnItem2">
+				<a href="#">
+					<span></span>
+					<em>装修图库</em>
+				</a>
+			</li>
+			<li id="hoticnItem3">
+				<a href="#">
+					<span></span>
+					<em>装修攻略</em>
+				</a>
+			</li>
+			<li id="hoticnItem4">
+				<a href="#">
+					<span></span>
+					<em>免费设计</em>
+				</a>
+			</li>
 		</ul>
 
+		<section id="freePrice" class="floor">
+			<header class="clearfix">
+				<h2>免费报价</h2>
+				<div class="floor_hoticn fl"></div>		
+			</header>
+			<div class="floorBody">
+				<div class="inp_wrap1 clearfix">
+					<div class="price_city_wrap inp_wrap fl">
+						<input type="button" name="" value="北京" id="price_city">
+						<i class="inp_arrow_icn"></i>
+					</div>
+					<div class="price_area_wrap inp_wrap fr">
+						<input type="text" name="" placeholder="建筑面积" id="price_area">
+						<i class="inp_m2_icn"></i>	
+					</div>
+				</div>
+				<div class="inp_wrap2 clearfix">
+					<div class="price_tel_wrap inp_wrap fl">
+						<input type="text" name="" placeholder="请输入您的手机号" id="price_tel">
+					</div>
+					<input type="button" name="" value="免费获取报价" id="price_submit">
+				</div>
+			</div>
+		</section>
+		<section id="good_Co" class="floor">
+				<header class="clearfix">
+					<h2>优质装修公司</h2>
+					<div class="floor_ad_icn fr"></div>		
+				</header>
+				<div class="floorBody" id="good_Co_body">
+						<ul class="good_Co_list clearfix">
+								
+								<li class="good_Co_item">
+									<a href="#">
+										<div class="good_Co_item_pic">
+											<img src="images/good_Co_pic/goodCoPic01.jpg" alt="">
+										</div>
+										<p class="good_Co_name">轻舟幸福亿家装修公司</p>	
+										<p class="good_Co_grade">口碑：<em>54</em></p>	
+										<div class="good_Co_txt">免费赠送第三方监督</div>
+									</a>
+								</li>
+								<li class="good_Co_item">
+									<a href="#">
+										<div class="good_Co_item_pic">
+											<img src="images/good_Co_pic/goodCoPic01.jpg" alt="">
+										</div>
+										<p class="good_Co_name">轻舟幸福亿家装修公司</p>	
+										<p class="good_Co_grade">口碑：<em>54</em></p>	
+										<div class="good_Co_txt">免费赠送第三方监督</div>
+									</a>
+								</li>
+								<li class="good_Co_item">
+									<a href="#">
+										<div class="good_Co_item_pic">
+											<img src="images/good_Co_pic/goodCoPic01.jpg" alt="">
+										</div>
+										<p class="good_Co_name">轻舟幸福亿家装修公司</p>	
+										<p class="good_Co_grade">口碑：<em>54</em></p>	
+										<div class="good_Co_txt">免费赠送第三方监督</div>
+									</a>
+								</li>
+								<li class="good_Co_item">
+									<a href="#">
+										<div class="good_Co_item_pic">
+											<img src="images/good_Co_pic/goodCoPic01.jpg" alt="">
+										</div>
+										<p class="good_Co_name">轻舟幸福亿家装修公司</p>	
+										<p class="good_Co_grade">口碑：<em>54</em></p>	
+										<div class="good_Co_txt">免费赠送第三方监督</div>
+									</a>
+								</li>
+								
+								
+						</ul>
+				</div>
+		</section>
+		<section id="case" class="floor">
+				<header class="clearfix">
+					<h2>热门装修案例</h2>
+				</header>
+				<div class="floorBody" id="case_body">
+					<div class="case_tag">
+						<a href="#">两居</a>
+						<a href="#">三居</a>
+						<a href="#">四居</a>
+						<a href="#">现代简约</a>
+						<a href="#">法式浪漫</a>
+						<a href="#">美式田园</a>
+						<a href="#">欧式轻奢</a>
+						<a href="#">中式古典</a>
+						<a href="#">居家日式</a>
+					</div>
+					<div class="case_list_wrap">
+						<ul id="case_list" class="clearfix">	
+							<li class="case_item fl">
+								<a href="#">
+									<img src="images/casePic/case_pic01.jpg" alt="">	
+									<div class="case_item_bg clearfix">
+										<p class="case_item_txt"><span>欧式轻奢 5室3厅 | 300</span>m<sup>2</sup></p>	
+										<p class="case_item_price">85万</p>	
+									</div>
+								</a>
+							</li>
+							<li class="case_item fl">
+								<a href="#">
+									<img src="images/casePic/case_pic01.jpg" alt="">	
+									<div class="case_item_bg clearfix">
+										<p class="case_item_txt"><span>欧式轻奢 5室3厅 | 300</span>m<sup>2</sup></p>	
+										<p class="case_item_price">85万</p>	
+									</div>
+								</a>
+							</li>
+							<li class="case_item fl">
+								<a href="#">
+									<img src="images/casePic/case_pic01.jpg" alt="">	
+									<div class="case_item_bg clearfix">
+										<p class="case_item_txt"><span>欧式轻奢 5室3厅 | 300</span>m<sup>2</sup></p>	
+										<p class="case_item_price">85万</p>	
+									</div>
+								</a>
+							</li>
+							<li class="case_item fl">
+								<a href="#">
+									<img src="images/casePic/case_pic01.jpg" alt="">	
+									<div class="case_item_bg clearfix">
+										<p class="case_item_txt"><span>欧式轻奢 5室3厅 | 300</span>m<sup>2</sup></p>	
+										<p class="case_item_price">85万</p>	
+									</div>
+								</a>
+							</li>	
+						</ul>
+					</div>	
+				</div>
+				<footer class="floor_ft">查看全部案例 &gt;</footer>
+					
+				
+		</section>
+		<section id="strategy" class="floor">
+			<header class="clearfix">
+				<h2>装修攻略</h2>
+			</header>
+			<div class="floorBody">
+				<ul id="strategy_list">
+					<li class="strategy_item">
+						<a href="">
+							<div class="strategy_item_con fl">
+								<h4>请带这些工具去收房现场</h4>
+								<p>一般开发商在房子建设完工后，会要求购房者去现场收房，那么作为业主，你们知道在收房</p>
+								<div class="strategy_item_msg clearfix">
+									<i class="view_icn fl"></i>
+									<span>1893</span>
+									<i class="time_icn fl"></i>
+									<span>2017-07-29 11:59:27</span>
+								</div>
+							</div>
+							<div class="strategy_item_pic fr">
+								<img src="images/strategyPic/strategy_pic01.jpg" alt="">
+							</div>	
+						</a>
+					</li>
+					<li class="strategy_item">
+						<a href="">
+							<div class="strategy_item_con fl">
+								<h4>请带这些工具去收房现场</h4>
+								<p>一般开发商在房子建设完工后，会要求购房者去现场收房，那么作为业主，你们知道在收房</p>
+								<div class="strategy_item_msg clearfix">
+									<i class="view_icn fl"></i>
+									<span>1893</span>
+									<i class="time_icn fl"></i>
+									<span>2017-07-29 11:59:27</span>
+								</div>
+							</div>
+							<div class="strategy_item_pic fr">
+								<img src="images/strategyPic/strategy_pic01.jpg" alt="">
+							</div>	
+						</a>
+					</li>
+					<li class="strategy_item">
+						<a href="">
+							<div class="strategy_item_con fl">
+								<h4>请带这些工具去收房现场</h4>
+								<p>一般开发商在房子建设完工后，会要求购房者去现场收房，那么作为业主，你们知道在收房</p>
+								<div class="strategy_item_msg clearfix">
+									<i class="view_icn fl"></i>
+									<span>1893</span>
+									<i class="time_icn fl"></i>
+									<span>2017-07-29 11:59:27</span>
+								</div>
+							</div>
+							<div class="strategy_item_pic fr">
+								<img src="images/strategyPic/strategy_pic01.jpg" alt="">
+							</div>	
+						</a>
+					</li>
+					<li class="strategy_item">
+						<a href="">
+							<div class="strategy_item_con fl">
+								<h4>请带这些工具去收房现场</h4>
+								<p>一般开发商在房子建设完工后，会要求购房者去现场收房，那么作为业主，你们知道在收房</p>
+								<div class="strategy_item_msg clearfix">
+									<i class="view_icn fl"></i>
+									<span>1893</span>
+									<i class="time_icn fl"></i>
+									<span>2017-07-29 11:59:27</span>
+								</div>
+							</div>
+							<div class="strategy_item_pic fr">
+								<img src="images/strategyPic/strategy_pic01.jpg" alt="">
+							</div>	
+						</a>
+					</li>
+				</ul>
+			</div>
+			<footer class="floor_ft">查看全部案例 &gt;</footer>
+		</section>
+		<section id="dec-Co" class="floor">
+				<header class="clearfix">
+					<h2>装修公司</h2>
+					<div class="floor_spread_icn fr"></div>
+				</header>
+				<div class="floorBody">
+						<ul id="dec-Co-list">	
+							<li class="dec-Co-item clearfix">
+								<div class="dec-Co-pic fl">
+									<img src="images/deCoPic/deCoPic01.jpg" alt="">
+								</div>
+								<div class="dec-Co-con fr">
+									<div class="dec-Co-con-top clearfix">
+										<div class="dec-Co-item-msg fl">
+											<h3 class="dec-Co-name">51装居网</h3>
+											<div class="dec-Co-card clearfix">
+												<i class="card_che"></i>
+												<i class="card_yan"></i>
+												<i class="card_liang"></i>
+												<i class="card_she"></i>
+												<i class="card_jian"></i>
+											</div>
+											<div class="dec-Co-star clearfix">
+												<i class="star_one"></i>
+												<i class="star_one"></i>
+												<i class="star_one"></i>
+												<i class="star_one"></i>
+												<i class="star_half"></i>
+											</div>	
+										</div>
+										<div class="dec-Co-con-right fr">
+											<div class="dec-Co-grade">
+												<i class="grade-icn"></i>
+												<span>口碑值</span>
+												<em>215</em>
+											</div>
+											<div class="free_order_wrap"><a href="#" class="freeorder_btn">免费预约</a></div>
+															
+										</div>	
+									</div>
+									<div class="dec-Co-item-foot">
+										<i>促</i>
+										<span>前20户量房送1000元定制家具券</span>
+									</div>	
+								</div>
+							</li>
+							<li class="dec-Co-item clearfix">
+									<div class="dec-Co-pic fl">
+										<img src="images/deCoPic/deCoPic01.jpg" alt="">
+									</div>
+									<div class="dec-Co-con fr">
+										<div class="dec-Co-con-top clearfix">
+											<div class="dec-Co-item-msg fl">
+												<h3 class="dec-Co-name">51装居网</h3>
+												<div class="dec-Co-card clearfix">
+													<i class="card_che"></i>
+													<i class="card_yan"></i>
+													<i class="card_liang"></i>
+													<i class="card_she"></i>
+													<i class="card_jian"></i>
+												</div>
+												<div class="dec-Co-star clearfix">
+													<i class="star_one"></i>
+													<i class="star_one"></i>
+													<i class="star_one"></i>
+													<i class="star_one"></i>
+													<i class="star_half"></i>
+												</div>	
+											</div>
+											<div class="dec-Co-con-right fr">
+												<div class="dec-Co-grade">
+													<i class="grade-icn"></i>
+													<span>口碑值</span>
+													<em>215</em>
+												</div>
+												<div class="free_order_wrap"><a href="#" class="freeorder_btn">免费预约</a></div>
+																
+											</div>	
+										</div>
+										<div class="dec-Co-item-foot">
+											<i>促</i>
+											<span>前20户量房送1000元定制家具券</span>
+										</div>	
+									</div>
+								</li>
+								<li class="dec-Co-item clearfix">
+										<div class="dec-Co-pic fl">
+											<img src="images/deCoPic/deCoPic01.jpg" alt="">
+										</div>
+										<div class="dec-Co-con fr">
+											<div class="dec-Co-con-top clearfix">
+												<div class="dec-Co-item-msg fl">
+													<h3 class="dec-Co-name">51装居网</h3>
+													<div class="dec-Co-card clearfix">
+														<i class="card_che"></i>
+														<i class="card_yan"></i>
+														<i class="card_liang"></i>
+														<i class="card_she"></i>
+														<i class="card_jian"></i>
+													</div>
+													<div class="dec-Co-star clearfix">
+														<i class="star_one"></i>
+														<i class="star_one"></i>
+														<i class="star_one"></i>
+														<i class="star_one"></i>
+														<i class="star_half"></i>
+													</div>	
+												</div>
+												<div class="dec-Co-con-right fr">
+													<div class="dec-Co-grade">
+														<i class="grade-icn"></i>
+														<span>口碑值</span>
+														<em>215</em>
+													</div>
+													<div class="free_order_wrap"><a href="#" class="freeorder_btn">免费预约</a></div>
+																	
+												</div>	
+											</div>
+											<div class="dec-Co-item-foot">
+												<i>促</i>
+												<span>前20户量房送1000元定制家具券</span>
+											</div>	
+										</div>
+									</li>
 
+						</ul>
+				</div>
+				<footer class="floor_ft">查看全部案例 &gt;</footer>			
+		</section>
+		<section id="free_quote">
+				<header>
+					<h2>免费量房预约</h2>
+					<p>今天共有<em>2227</em>位报名</p>
+				</header>
+				<div class="free_quote_con">
+					<input type="text" name="" placeholder="您的姓名" id="free_quote_area">	
+					<input type="text" name="" placeholder="您的手机号码" id="free_quote_tel">	
+					<input type="button" name="" value="北京" id="free_quote_city">
+					<button id="free_quote_btn">免费获取报价</button>	
+				</div>
+		</section>
+
+		<footer id="copyright_foot">深圳前海优品网络科技有限公司 粤ICP备15099714号-2号</footer>
+	<script>
+	
+	</script>
 
 	</body>
 </html>

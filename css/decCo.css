@@ -1,0 +1,69 @@
+/*===========tengxun-youju============*/
+#one_banner{
+        background:#fff;
+        width:7.50rem;
+        height: 2.5rem;
+        overflow: hidden;
+        position: relative;
+}
+#one_banner ul{
+        position: absolute;
+        left:-5rem;
+        width:15.0rem;
+        height: 2.5rem;
+}
+#one_banner li{
+        width:7.5rem;
+        height: 2.5rem;
+        float:left;
+}
+#one_banner img{
+        width:7.5rem;
+        height: 2.5rem;
+
+}
+
+.decCo_menubar{
+      display: flex;  
+      /* margin-top: -44px; */
+      width: 7.5rem;
+      height: 0.88rem;
+      background-color: #fff;
+      border-bottom: 0.01rem solid #d7d7d7;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.decCo_menubar_item{
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        font-size: 0.24rem;
+        height: 0.34rem;
+        line-height: 0.34rem;
+        padding: 0.1rem 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        background-color: white;
+        text-align: center;  
+        border-right:0.01rem solid #e5e5e5;
+}
+
+#decCoHtml .floorBody{
+        padding:0.24rem 0 0 0;       
+}
+#decCoHtml .icon-weibiaoti1{
+        font-size:0.20rem;
+}
+#decCoHtml .icon-leixing{
+        font-size:0.24rem;
+}
+#decCoHtml .icon-jiage-copy{
+        font-size:0.22rem;
+}
+#decCoHtml .icon-anquan{
+        font-size:0.28rem;
+}
+
+/* ======其他列表样式在common.css======= */
