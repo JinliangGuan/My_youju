@@ -1,1 +1,48 @@
 /*===========tengxun-youju-decMapStore============*/
+.mapStore_con{
+    width:7.1rem;
+    overflow: hidden;
+    padding: 0.2rem;
+    background:#fff;
+}
+#mapStore_list{
+    width: 7.35rem;
+    
+}
+.mapStore_item{
+    width: 3.41rem;
+    height: 3.46rem;
+    margin: 0 0.2rem 0.2rem 0;
+    border:2px solid #e7e7e7;
+    position: relative;
+
+}
+.mapStore_num{
+    width: 0.64rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    text-align: center;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left:0;
+    top:0.25rem;
+
+}
+.mapStore_pic img{
+    width: 3.41rem;
+    height: 2.8rem;
+}
+.mapStore_txt{
+    height: 0.66rem;
+    line-height: 0.66rem;
+    font-size: 0.2rem;
+    color:#666;
+    text-align: center;
+    width: 3.2rem;
+    padding:0 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

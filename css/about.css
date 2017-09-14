@@ -1,0 +1,137 @@
+/*===========adpic============*/
+.ad_pic img{
+    width:100%;
+    height: 100%;
+}
+.service_pic{
+    position: relative;
+}
+.tip{
+    position: absolute; 
+    display: none;
+}
+.tip_txt1{
+    left: 2.42rem;
+    top:2.42rem;   
+}
+.tip_txt2{
+    left: 2.85rem;
+    top:2.42rem;   
+}
+.tip_txt3{
+    left: 2.42rem;
+    top:4.4rem;   
+}
+.tip_txt4{
+    left: 2.2rem;
+    top:4.5rem;
+}
+.service_pic .tip_txt_show{
+    display: block;
+}
+.tip_btn a{
+    display: block;
+    width:1.40rem;
+    height: 1.4rem;
+    position: absolute;
+    background:rgba(255,255,255,0.3);
+} 
+.tip_btn1{
+    left: 0.98rem;
+    top:2.2rem;
+} 
+.tip_btn2{
+    left: 5.0rem;
+    top:2.2rem;
+}  
+.tip_btn3{
+    left: 0.98rem;
+    top:5.8rem;
+} 
+.tip_btn4{
+    left: 5rem;
+    top:5.4rem;
+} 
+.connectUs_bar{
+    width:5.62rem;
+    padding:1.9rem 0.94rem 1rem;
+    background:#29a4e1 url(../images/aboutpic/connectUs.jpg) no-repeat 2.88rem 0.6rem;
+    background-size:1.71rem 0.86rem;
+}
+.connectUs_tab{
+    width: 3.2rem;
+    height: 0.5rem;
+    margin:0 auto;
+    background:url(../images/aboutpic/aboutPic_tab_tit.jpg) no-repeat left top;
+    background-size:100% 100%;
+    margin-bottom: 0.56rem;
+}
+.connectUs_tab a{
+    display: block;
+    float:left;
+    width: 1.6rem;
+    height: 0.5rem;   
+}
+.connectUs_inp{
+    width:5.22rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding:0 0.2rem;
+    background:#fff;
+    margin-bottom:0.2rem;
+    border-radius: 0.06rem;
+    font-size:0.28rem;
+}
+.connectUs_city{
+    width:5.62rem;
+    height: 0.6rem;
+    margin-bottom:0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connectUs_city_sel_wrap{
+    width:2.6rem;
+    height: 0.6rem;
+    font-size:0.28rem;
+    background:#fff;
+    border-radius: 0.06rem;
+    position: relative;
+}
+.connectUs_city select{
+    width:2.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    padding:0 0 0 0.2rem;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+.sel_down{
+    display: block;
+    width:0.22rem;
+    height: 0.12rem;
+    background: url(../images/icn01.png) no-repeat 0rem -1.98rem;
+    background-size: 2rem 3rem;
+    position: absolute;
+    right: 0.2rem;
+    top:0.24rem;
+}
+.connectUs_city option{
+    font-size: 0.28rem;
+}
+.connectUs_city_sel_wrap:nth-of-type(1){
+    margin-right: 0.34rem;
+}
+#connectUs_submit{
+    width:5.62rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border-radius: 0.06rem;
+    background:#f5635d;
+    font-size:0.26rem;
+    color:#fff;
+}
+
+

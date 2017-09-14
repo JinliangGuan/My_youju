@@ -82,7 +82,7 @@ body .clear-r-margin{
     line-height: 0.8rem;
     color:#999;
     text-align:center; 
-    border-top: 0.02rem solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
     background: #fff;
 }
 /* ======================topbar======================== */
@@ -142,6 +142,8 @@ body .clear-r-margin{
     height: 0.5rem;
     padding:0.59rem 0 0.19rem;
     position: relative;
+    background:#fff;
+    border:2px solid #d7d7d7;
 }
 .topbar_tit_h2{
     height: 0.5rem;
@@ -159,7 +161,48 @@ body .clear-r-margin{
     left:0.25rem;
     top:0.59rem;
     border-radius: 0.08rem;
+}
+.phone_icn{
+    width:0.48rem;
+    height: 0.48rem;
+    background:url(../images/icn01.png) no-repeat -1.52rem -1.54rem;
+    background-size: 2rem 3rem;
+    position: absolute;
+    right:0.20rem;
+    top:0.59rem;
+    border-radius: 0.08rem;
 
+}
+/* ======================footer======================== */
+.copyright_foot{
+    padding:0.54rem 0 0.32rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    color:#ccc;
+}
+/* ======================一些组件======================== */
+/* =========报价器========= */
+.ft_counter_btn_wrap{
+    width: 7.1rem;
+    height: 0.66rem;
+    padding: 0.17rem 0.2rem;
+}
+.ft_counter_btn{
+    width: 7.1rem;
+    height: 0.66rem;
+    line-height: 0.66rem;
+    font-size: 0.28rem;
+    color:#fff;
+    background:#1386f1;
+    text-align: center;
+    border:none;
+    border-radius: 0.1rem;
+}
+.ft_counter_btn i{
+    margin: 0.05rem;
+    position: relative;
+    top:0.02rem;
 }
 
 
@@ -176,7 +219,7 @@ body .clear-r-margin{
 .dec-Co-pic img{
     width: 1.44rem;
     height: 1.44rem;
-    border:0.01rem solid #e3e3e3;
+    border:1px solid #e3e3e3;
 }
 .dec-Co-con{
     width: 5.64rem;
@@ -186,7 +229,7 @@ body .clear-r-margin{
 .dec-Co-con-top{
     height: 1.48rem;
     margin-right:0.34rem;
-    border-bottom:0.02rem solid #e5e5e5;
+    border-bottom:2px solid #e5e5e5;
 }
 .dec-Co-item-msg{
     width: 3.2rem;
@@ -254,7 +297,7 @@ body .clear-r-margin{
 .grade-icn{
     display: inline-block;
     vertical-align: top;
-    margin-top:0.02rem;
+    margin-top:0.02px;
     width: 0.22rem;
     height: 0.23rem;
     background: url(../images/icn01.png) no-repeat -1.74rem -0.62rem;
@@ -289,7 +332,7 @@ body .clear-r-margin{
     font-size:0.22rem;
     text-align: center;
     color:#f0612f;
-    border:0.01rem solid #f0612f;
+    border:1px solid #f0612f;
 }
 .dec-Co-item-foot span{
     display: inline-block;
@@ -300,4 +343,67 @@ body .clear-r-margin{
     color:#999;
     margin-left: 0.08rem;
 
+}
+/* ==============装修攻略============== */
+.strategy_item{
+    height:1.64rem;
+    padding:0.3rem 0.2rem;
+    border-bottom: 2px solid #f4f4f4;
+}
+.strategy_item_con{
+    width:4.8rem;
+    height: 1.64rem;
+}
+.strategy_item h4{
+     height: 0.3rem;
+     line-height: 0.3rem;
+     font-size:0.3rem;
+     font-weight: bolder;
+}
+.strategy_item p{
+    height: 0.66rem;
+    overflow:hidden;
+    padding: 0.2rem 0;
+    line-height: 0.33rem;
+    font-size:0.24rem;
+    color:#333;
+}
+.strategy_item_msg{
+     height: 0.28rem;            
+}
+.view_icn{
+     width:0.24rem;
+     height: 0.18rem;
+     margin-top: 0.02px;
+     margin-right: 0.06rem;
+     background: url(../images/icn01.png) no-repeat -0.86rem -1.16rem;
+     background-size: 2rem 3rem;
+}
+.time_icn{
+    width:0.24rem;
+    height: 0.23rem;
+    margin-top: 0.02px;
+    margin-right: 0.08rem;
+    background: url(../images/icn01.png) no-repeat -1.31rem -1.16rem;
+    background-size: 2rem 3rem;
+}
+.strategy_item_msg span{
+    vertical-align: center;
+    float:left;
+    height: 0.22rem;
+    line-height: 0.22rem;
+    font-size:0.18rem;
+    margin-right: 0.28rem;
+    color:#999;
+}
+.strategy_item_msg i{
+     margin-right: 0.05rem;
+}
+.strategy_item_msg .icon-yulan{
+    position: relative;
+    top:0.02rem;
+}
+.strategy_item_pic img{
+    width: 1.64rem;
+    height: 1.64rem;
 }

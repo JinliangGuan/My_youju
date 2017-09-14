@@ -82,7 +82,7 @@
         height: 0.4rem;
         margin-left:0.2rem;
         padding:0.24rem 0.2rem 0.26rem 0;
-        border-bottom: 0.02rem solid #e5e5e5;
+        border-bottom: 2px solid #e5e5e5;
 }
 .floor h2{
         float: left;
@@ -112,7 +112,7 @@
         width:3.11rem;
         height:0.48rem;
         padding: 0.23rem 0.18rem 0.21rem 0.12rem;
-        border:0.02rem solid #e5e5e5;
+        border:2px solid #e5e5e5;
         border-radius: 0.1rem;
         position: relative;
 }
@@ -191,7 +191,7 @@ input::-webkit-input-placeholder{color:#ccc;}
 .good_Co_item_pic{
         width:2.25rem;
         height: 2.25rem;
-        border: 0.02rem solid #e5e5e5; 
+        border: 2px solid #e5e5e5; 
         border-radius: 0.07rem; 
         margin-bottom: 0.2rem;  
 }
@@ -224,7 +224,7 @@ input::-webkit-input-placeholder{color:#ccc;}
         height: 0.40rem;
         line-height: 0.40rem;
         padding:0 0.05rem;
-        border:0.02rem solid #8AD143;
+        border:2px solid #8AD143;
         color:#8ad144;
 }
 
@@ -308,60 +308,8 @@ input::-webkit-input-placeholder{color:#ccc;}
  #strategy .floorBody{
          padding:0.2rem 0 0 0;
  }
-.strategy_item{
-        height:1.64rem;
-        padding:0.3rem 0.2rem;
-        border-bottom: 0.02rem solid #f4f4f4;
- }
-.strategy_item_con{
-        width:4.8rem;
-        height: 1.64rem;
- }
-.strategy_item h4{
-         height: 0.3rem;
-         line-height: 0.3rem;
-         font-size:0.3rem;
-         font-weight: bolder;
- }
- .strategy_item p{
-        height: 0.66rem;
-        overflow:hidden;
-        padding: 0.2rem 0;
-        line-height: 0.33rem;
-        font-size:0.24rem;
-        color:#333;
- }
- .strategy_item_msg{
-         height: 0.28rem;            
- }
- .view_icn{
-         width:0.24rem;
-         height: 0.18rem;
-         margin-top: 0.02rem;
-         margin-right: 0.06rem;
-         background: url(../images/icn01.png) no-repeat -0.86rem -1.16rem;
-         background-size: 2rem 3rem;
- }
- .time_icn{
-        width:0.24rem;
-        height: 0.23rem;
-        margin-top: 0.02rem;
-        margin-right: 0.08rem;
-        background: url(../images/icn01.png) no-repeat -1.31rem -1.16rem;
-        background-size: 2rem 3rem;
-}
- .strategy_item_msg span{
-        float:left;
-        height: 0.22rem;
-        line-height: 0.22rem;
-        font-size:0.18rem;
-        margin-right: 0.28rem;
-        color:#999;
- }
- .strategy_item_pic img{
-        width: 1.64rem;
-        height: 1.64rem;
- }
+
+
   /* ==============装修公司============== */
 .floor_spread_icn{
         width: 0.96rem;
@@ -407,7 +355,7 @@ input::-webkit-input-placeholder{color:#ccc;}
         font-size: 0.28rem;
         padding:0 0.12rem;
         margin-bottom: 0.2rem;
-        border:0.02rem solid #e5e5e5;
+        border:2px solid #e5e5e5;
         border-radius: 0.1rem;
  }
  #free_quote_city{
@@ -423,10 +371,3 @@ input::-webkit-input-placeholder{color:#ccc;}
          background: #1486f1;
  }
 
- #copyright_foot{
-         padding:0.54rem 0 0.32rem;
-         height: 0.2rem;
-         line-height: 0.2rem;
-         text-align: center;
-         color:#ccc;
- }

@@ -29,7 +29,7 @@
       width: 7.5rem;
       height: 0.88rem;
       background-color: #fff;
-      border-bottom: 0.01rem solid #d7d7d7;
+      border-bottom: 1px solid #d7d7d7;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -47,23 +47,14 @@
         white-space: nowrap;
         background-color: white;
         text-align: center;  
-        border-right:0.01rem solid #e5e5e5;
+        border-right:01px solid #e5e5e5;
 }
-
+.decCo_menubar_item span{
+        color:#666;
+}
 #decCoHtml .floorBody{
         padding:0.24rem 0 0 0;       
 }
-#decCoHtml .icon-weibiaoti1{
-        font-size:0.20rem;
-}
-#decCoHtml .icon-leixing{
-        font-size:0.24rem;
-}
-#decCoHtml .icon-jiage-copy{
-        font-size:0.22rem;
-}
-#decCoHtml .icon-anquan{
-        font-size:0.28rem;
-}
+
 
 /* ======其他列表样式在common.css======= */

@@ -1,0 +1,70 @@
+/*===========strategy-detail============*/
+article{
+    background:#fff;
+    padding:0 0.2rem;
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+}
+.strategy-detail-tit{
+    padding:0.2rem 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+.strategy-detail-tit h4{
+    font-size: 0.44rem;
+    line-height: 0.66rem;
+}
+.strategy-detail-msg{
+    line-height: 0.36rem;
+    height: 0.36rem;
+}
+.strategy-detail-msg i{
+    margin-right:0.05rem;
+}
+.strategy-detail-msg span{
+    font-size: 0.22rem;
+    color:#999;
+    margin-right: 0.4rem;
+}
+.strategy-detail-msg .icon-shijian{
+    position: relative;
+    top:-0.02rem;
+}
+.strategy-synopsis{
+    padding-top:0.4rem;
+    
+}
+.strategy-pic{
+    width: 100%;
+}
+.strategy-pic img{
+    width:100%;
+}
+.strategy-con{
+    padding-bottom: 0.2rem;
+}
+
+.strategy-link{
+    padding:0.3rem 0.2rem 0.2rem;
+    
+}
+.strategy-link span{
+    float: left;
+    height: 0.48rem;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    color:#999;
+    margin:0.09rem 0.24rem 0.09rem 0;
+}
+.strategy-link i{
+    float: left;
+    height: 0.44rem;
+    font-size: 0.24rem;
+    line-height: 0.44rem;
+    color:#999;
+    margin:0.09rem 0.24rem 0.09rem 0;
+    padding:0 0.16rem;
+    border:2px solid #ccc;
+    border-radius: 0.08rem;
+    background:#fff;
+}
+

@@ -1,0 +1,56 @@
+/*===========caseStore============*/
+
+#caseStoreHtml .decCo_menubar_item i{
+    color:#aeaeae;
+}
+#caseStoreHtml .decCo_menubar_item span{
+    color:#333;
+}
+
+.caseStore_con{
+    width:7.1rem;
+    overflow: hidden;
+    padding: 0.2rem;
+}
+#caseStore_list{
+    width: 7.35rem;
+    
+}
+.caseStore_item{
+    width: 3.41rem;
+    height: 4.62rem;
+    background:#fff;
+    margin: 0 0.2rem 0.2rem 0;
+    border:2px solid #e7e7e7;
+    position: relative;
+
+}
+.caseStore_pic img{
+    width: 3.41rem;
+    height: 3.41rem;
+}
+.caseItem_name{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding:0.14rem 0.12rem 0;
+    font-size: 0.28rem;  
+}
+.caseItem_msg{
+    height: 0.5rem;
+    padding:0 0.12rem; 
+}
+.caseItem_msg_size{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+    color:#999;
+}
+.caseItem_msg_size i{
+    color:#e5e5e5;
+}
+.caseItem_price{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+    color:#999;
+}
