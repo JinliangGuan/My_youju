@@ -1,10 +1,11 @@
-/*===========adpic============*/
+/*===========supervisor============*/
 .ad_pic img{
     width:100%;
     height: 100%;
 }
+
 .enrollLive{
-    height:  0.94rem;
+    height: 0.94rem;
     background:#fff;
 }
 .enrollLive_logo{
@@ -34,14 +35,116 @@
     color:#666;
     margin:0.28rem 0.4rem 0.26rem 0;
 }
-/* ============================= */
+
+.supervisor_article{
+    margin: 0.2rem 0;
+    padding:0rem 0 0.36rem;
+    background:#fff;
+}
+.supervisor_article_tit{
+    height: 0.32rem;
+    line-height: 0.32rem;
+    font-size: 0.28rem;
+    font-weight: bolder;
+    color:#666;
+    padding: 0.46rem 0 0 0;
+    background:#fff;
+}
+.article_tit_icn{
+    display: block;
+    width: 0.2rem;
+    height: 0.32rem;
+    background:#fb6433; 
+    margin-right: 0.2rem;
+}
+
+.supervisor_article_con{
+    padding: 0.26rem 0.45rem 0.2rem;
+}
+.supervisor_article_con p{
+    line-height: 0.36rem;
+    color:#999;
+    margin-bottom: 0.2rem;
+    font-size: 0.24rem;
+}
+
+.supervisor_article_pic img{
+    width:100%;
+}
+
+
 .supervisor_tit{
     height: 1.97rem;
     background:#fff url(../images/youjubao/supervisor_tit.jpg) no-repeat 2.2rem 0.46rem;
     background-size: 3.13rem 0.97rem;
 
 }
-/* ============================= */
+.supervisor_tab{
+    height: 1rem;
+    padding:0.37rem 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background:#fff;
+}
+.supervisor_tab_item{
+    height: 1rem;
+    line-height: 1rem;
+    width: 1.3rem;
+    
+}
+.supervisor_tab_item i{
+    display: block;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+    color:#cccccc;
+}
+.supervisor_tab_item span{
+    display: block;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size:0.2rem;
+    text-align: center;
+    color:#cccccc;
+}
+.supervisor_tab_item .supervisor_tab_active{
+    color:#ff6325;
+}
+
+.supervisor_list_wrap{
+    width:7.5rem;
+    height: 6.73rem;
+    overflow-x: auto;
+    
+}
+.supervisor_list{
+    width:37.5rem;
+    height: 6.32rem;
+    padding:0.2rem 0 0.21rem;
+}
+.supervisor_item{
+    width: 7.1rem;
+    height:6.32rem;
+    margin:0 0.2rem;
+    background:#fff;
+}
+.supervisor_item_pic{
+    text-align: center;
+    padding:0.6rem 0 0.39rem;
+}
+.supervisor_item_pic img{
+    vertical-align: top;
+    width: 4rem;
+    height: 4rem;
+    border-radius:0.1rem;
+}
+.supervisor_item_txt{
+    line-height: 0.36rem;
+    font-size: 0.24rem;
+    color:#666;
+    padding: 0 0.55rem;
+}
 .margin_btn20{
     margin-bottom: 0.2rem;
 }

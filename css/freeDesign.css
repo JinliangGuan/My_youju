@@ -1,0 +1,140 @@
+/*===========freeDesign============*/
+.freeDesign_form{
+    padding:0.5rem 0;
+    background:-webkit-linear-gradient(bottom, #1e9dec 2.64rem, #f8f8f8 1.61rem);
+    background:linear-gradient(0deg, #1e9dec 68%, #f8f8f8 68%);
+    
+}
+.freeDesign_form_con{
+    width: 6.9rem;
+    height: 4.88rem;
+    border:3px solid #1e9dec;
+    margin:0 auto;
+    background:#fff;
+}
+.freeDesign_form_tit{
+    padding:0.12rem 0 0 0;
+    text-align: center;
+}
+.freeDesign_form_tit img{
+    width:6.2rem;
+    height:1.12rem;
+}
+.freeDesign_form_inp{
+    display: block;
+    width: 5.88rem;
+    padding:0 0.2rem;
+    height: 0.88rem;
+    font-size: 0.28rem;
+    margin:0.2rem auto 0;
+    border:3px solid #918e8e;
+    border-radius: 0.05rem;
+}
+.freeDesign_form_sel_wrap{
+    width:6.26rem;
+    margin:0 auto;
+    margin-top:0.2rem;
+}
+.freeDesign_form_sel_wrap select{
+    display: block;
+    height:0.88rem;
+    width:2.9rem;
+    border-radius: 0.05rem;
+    border:3px solid #918e8e;
+    font-size: 0.28rem;
+    padding: 0 0.2rem; 
+    background: #fff url(../images/icn01.png) no-repeat 2.5rem -2.3rem;
+    background-size: 2rem 3rem;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;   
+}
+.freeDesign_form_btn{
+    text-align: center;
+}
+.design_style{
+    padding: 0.4rem 0 0.1rem 0;
+    background:#fff;
+}
+.design_style_hd{
+    text-align: center;
+}
+.design_style_hd img{
+    width:7.06rem;   
+}
+.design_style_con{
+    width:7.0rem;
+    margin:0 auto;
+    border:3px solid #1e9dec;
+}
+.design_style_pic_list_wrap{
+    width:7.0rem;
+    overflow-x:auto;
+}
+.design_style_pic_list{
+    width:56rem;
+    height:4.7rem;
+}
+.design_style_pic_item{
+    float: left;
+    padding:0.1rem;
+    width:6.8rem;
+}
+.design_style_pic_item img{
+    width:6.8rem;
+    height:4.5rem;
+}
+.design_style_btn{
+    padding-top: 0.1rem;
+    text-align: center;
+}
+.design_style_btn img{
+    width:5.07rem;
+    height:1.34rem;
+}
+.freeDesign_ft{
+    width: 7.5rem;
+    height: 0.9rem;
+    background:rgba(0, 0, 0, 0.4);
+}
+.suona_icn img{
+    width:0.58rem;
+    height: 0.48rem;
+    margin:0.21rem 0.2rem 0.2rem 0.2rem;
+}
+.freeDesign_ft_msg{
+    height: 0.9rem;
+    line-height: 0.9rem;
+    font-size: 0.24rem;
+    color:#fff;
+}
+.freeDesign_ft_btn{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding:0 0.18rem;
+    margin:0.15rem 0.2rem;
+    background:#ff6325;
+    color:#fff;
+    font-size: 0.28rem; 
+    border-radius: 0.08rem;
+
+}
+
+@keyframes suona {      
+    0% { transform:scale(0.8) rotate(0deg); }  
+    10% { transform:scale(0.95) rotate(0deg); }   
+    20% { transform:scale(1) rotate(0deg)}
+    30% { transform:scale(1) rotate(5deg)}
+    40% { transform:scale(1) rotate(-5deg)}
+    50% { transform:scale(1) rotate(5deg)}
+    60% { transform:scale(1) rotate(-5deg)}
+    70% { transform:scale(1) rotate(5deg)}
+    80% { transform:scale(1) rotate(0deg)}
+    95% { transform:scale(0.95) rotate(0deg); } 
+    100% { transform:scale(0.8) rotate(0deg)}
+}    
+.suona_icn img{
+    transform-origin:0.2rem center;
+    animation: suona 1s linear infinite;
+    -webkit-animation: suona 1s linear infinite;
+}
