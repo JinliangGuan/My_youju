@@ -1,0 +1,258 @@
+/*===========decCo_detail============*/
+.ad_pic img{
+    width:100%;
+}
+.decCo_banner_wrap{
+    width: 7.5rem;
+    height:3.5rem;
+    background:url(../images/deCoPic/Co_xingfuyijia_pic/6343d63cfde9abcb29d97605ea0b3b74.jpg) no-repeat left top;
+    background-size:cover;
+    position: relative;
+}
+.decCo_banner_body{
+    width:6.54rem;
+    height:2.6rem;
+    padding:0.7rem 0.48rem 0.2rem;
+    background:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left:0;
+    top:0    
+}
+.decCo_collect{
+    width:2.4rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    position:absolute;
+    right:0.4rem;
+    top:0.09rem;
+    color:#fff;
+    text-align: right;
+}
+.collect_icn{
+    display: inline-block;
+    vertical-align: top;
+    margin:0.12rem 0 0 0.18rem;
+    width: 0.36rem;
+    height:0.33rem;
+    background:url(../images/icn03.png) no-repeat left -4.41rem;
+    background-size:1.46rem 12.56rem;
+}
+.decCo_banner_con{
+    height: 1.4rem;
+    margin-bottom: 0.36rem;
+}
+.decCo_pic{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.33rem;
+}
+.decCo_pic img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0.1rem;
+}
+.decCo_info{
+    width: 4.8rem;   
+}
+.decCo_name{
+    line-height: 0.56rem;
+    height: 0.56rem;
+    font-size: 0.26rem;
+    font-weight: bolder;
+    color:#fff;
+}
+.decCo_koubei,.decCo_price{
+    height: 0.32rem;
+    line-height: 0.32rem;
+    color:#fff;
+    font-size: 0.24rem;
+}
+
+.decCo_koubei em{
+    color:#f24a48;
+    font-weight: bold;
+    margin-left: 0.05rem;
+}
+.decCo_info_msg{
+    font-size: 0.24rem;
+    color:#fff;
+    line-height: 0.36rem;
+}
+.decCo_info_msg a{
+    color:#01b4ff;
+    text-decoration: underline;
+}
+.decCo_msg_fullscreen{
+    position: fixed;
+    left:0;
+    top:0;
+    background:rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+    padding:2rem 0.48rem;
+     
+    display: none;  
+}
+.decCo_msg_txt{
+    width:100%;
+    height: 100%;
+    overflow-y: auto;
+
+}
+.close_fullscreen{
+    display: block;
+    width: 0.58rem;
+    height: 0.58rem;
+    background:url(../images/deCoPic/52380332.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right:0.3rem;
+    top:0.6rem;
+}
+.decCo_msg_txt p{
+    font-size: 0.28rem;
+    color:#fff;
+    line-height: 0.4rem;
+}
+
+.decCo_detail_nav{
+    height: 0.8rem;
+    background:#fff;
+}
+.decCo_detail_nav_item{
+    width:20%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.decCo_detail_nav .decCo_detail_nav_item_act{
+    background:#1386f1;
+    color:#fff;
+}
+
+.decShop_info_box section{
+    padding-left: 0.2rem;
+    background:#fff;
+    margin-bottom: 0.2rem;
+}
+.decShop_info_tit{
+    height: 0.9rem;
+    line-height: 0.9rem;
+    font-size: 0.28rem;
+    font-weight: bolder;
+    border-bottom: 2px solid #ccc;
+}
+.decShop_info_item{
+    line-height: 0.64rem;
+    font-size: 0.28rem;
+}
+.decShop_info_item_name{
+    width: 1.7rem;
+    color:#666;
+}
+.decShop_price_txt{
+    margin-right: 0.3rem;
+}
+.decShop_info_priceData_inner{
+    padding:0.37rem 0 0.2rem;
+}
+.decShop_info_detail_inner{
+    padding:0.1rem 0 0.2rem;
+}
+.decShop_info_item_service .dec-Co-card{
+    margin:0.18rem 0 0 0;
+}
+.decShop_shouhou_txt{
+    display: block;
+}
+
+.decCo_detail_freePrice{
+    height: 0.5rem;
+    width:7.2rem;
+    padding:0.18rem 0.15rem;
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.decCo_detail_freePrice input{
+    width: 2.35rem;
+    padding:0 0.15rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    background:#fff;
+    border-radius: 0.08rem;
+}
+.decCo_detail_freePrice_submit{
+    width: 1.36rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color:#fff;
+    background:#fe720e;
+    border-radius: 0.05rem;
+}
+
+.decShop_info_box{
+    display: none;
+}
+/* =============案例============ */
+.decCo_case_filter{
+    width:7.1rem;
+    padding:0.2rem 0.2rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.decCo_case_filter a{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0.2rem;
+    padding:0 0.25rem;
+    font-size: 0.24rem;
+    height:0.56rem;
+    line-height: 0.56rem;
+    color:#ccc;
+    border:2px solid #ccc;
+    border-radius:0.3rem;
+}    
+.decCo_case_filter .active{
+    color:#1386f1;
+    border-color:#1386f1;
+}
+.decCo_case_list{
+    padding:0.2rem 0.2rem;
+}
+.decCo_case_item{
+    height: 3.74rem;
+    width: 7.1rem;
+    background:#fff;
+    margin-bottom: 0.2rem;
+}
+.decCo_case_item_pic{
+    width:7.1rem;
+    height: 2.95rem;
+    background:url(../images/deCoPic/Co_xingfuyijia_pic/decCo_case/chineseStyle/chineseStyle_miyun/chineseStyle_miyun01.jpg) no-repeat center center;
+    background-size: cover;
+}
+.decCo_case_item_con{
+    height:0.8rem;
+    padding:0 0.2rem;
+    font-size: 0.26rem;
+}
+.decCo_case_item_info{
+    height:0.8rem;
+    line-height: 0.8rem;
+}
+.decCo_case_item_price{
+    height:0.8rem;
+    line-height: 0.8rem;
+    color:#f91333;
+}
